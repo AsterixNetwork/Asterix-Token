@@ -1,4 +1,3 @@
-
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.6.0 <0.8.0;
 
@@ -485,7 +484,7 @@ abstract contract Pausable is Context, Ownable {
  * functions have been added to mitigate the well-known issues around setting
  * allowances. See {IERC20-approve}.
  */
-contract Coin98 is Context, Ownable, Pausable, IERC20 {
+contract AsterixV1 is Context, Ownable, Pausable, IERC20 {
   using SafeMath for uint256;
 
   mapping (address => uint256) private _balances;
